@@ -1,0 +1,73 @@
+html ,body{
+    height: 100%;
+    margin: 0 auto;
+}
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+    background-image: url("img/natsu.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    overflow: hidden;
+}
+.container{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    top: 25%;
+}
+h1 {
+    color: #ffffff;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.choice {
+    padding: 10px 20px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.choice:hover {
+    background-color: #ddd;
+}
+
+#result {
+    font-size: 1.5em;
+    margin: 20px 0;
+    color: #e3e2e2;
+}
+
+#score {
+    margin: 20px 0;
+    font-size: 1.2em;
+    color: white;
+}
+
+#reset {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#reset:hover {
+    background-color: #0056b3;
+}
