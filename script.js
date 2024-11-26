@@ -1,8 +1,8 @@
 // Initialisation des variables
 const choices = document.querySelectorAll('.choice');
-const resultDiv = document.getElementById('result');
-const scoreDiv = document.getElementById('score');
-const resetButton = document.getElementById('reset');
+const resultDiv = document.querySelector('#result');
+const scoreDiv = document.querySelector('#score');
+const resetButton = document.querySelector('#reset');
 
 let playerScore = 0;
 let computerScore = 0;
